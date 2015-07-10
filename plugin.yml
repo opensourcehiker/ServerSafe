@@ -1,0 +1,12 @@
+name: ServerSafe
+version: 1.0
+main: server.safe.Core
+commands:
+  login:
+    description: Login to the server.
+  pset: 
+    description: Set or change your password.
+  swear: 
+    description: Allows you to add new swears.
+    permission: swear.add
+  
