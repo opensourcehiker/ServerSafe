@@ -20,8 +20,6 @@ public class Settings {
 	public Settings() {
 		this.loadSettings();
 	}
-	//TODO: ALWAYS BLOCKING AT SPAWN!!! 
-	//THIS AND THAT AND WHATEVER. WHY? OH YEAH, DO THE IF STATEMENTS SEPERATELY!!!
 	public boolean hasSpamProtection() {
 		return spamProtection;
 	}
